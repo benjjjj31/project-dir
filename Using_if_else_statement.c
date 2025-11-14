@@ -1,0 +1,21 @@
+// DELOS SANTOS, BENJAMIN D. III DIT 1-2
+
+
+#include <stdio.h>
+
+int main() {
+    int num;
+
+    // Ask user for input
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    // Check if even or odd
+    if (num % 2 == 0) {
+        printf("%d is even.\n", num);
+    } else {
+        printf("%d is odd.\n", num);
+    }
+
+    return 0;
+}
